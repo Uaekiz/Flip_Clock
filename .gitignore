@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Typically Python apps with PyInstaller are built into an executable.
+#  The spec file and build/ directory are usually not needed in the repo.
+#  We keep dist/flip_clock.exe as requested.
+build/
+*.spec
+
+# Ignore everything in dist/ except flip_clock.exe
+dist/*
+!dist/flip_clock.exe
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+test.ps
